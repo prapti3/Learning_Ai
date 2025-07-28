@@ -1,11 +1,12 @@
 
 # 💡 Learning AI — My Public AI Learning Journey
 
+<br>
+
 Welcome to my AI Learning GitHub repo — a public, transparent, and accountable journal of my journey from **AI beginner** to **AI practitioner**. I’m dedicating **2 hours every day** to learning and building with AI — from Python to Generative AI and beyond!
 
+
 ---
-
-
 
 
 ## 📍 Why I'm Doing This
@@ -30,6 +31,8 @@ Welcome to my AI Learning GitHub repo — a public, transparent, and accountable
 
 ---
 
+<br>
+
 ## 🔧 Tools & Technologies
 
 - **Languages**: Python
@@ -40,6 +43,7 @@ Welcome to my AI Learning GitHub repo — a public, transparent, and accountable
 - **Data**: Real-world datasets from Kaggle & government portals
 
 ---
+<br>
 
 ## 📁 Folder Structure
 
