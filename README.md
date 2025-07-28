@@ -60,3 +60,17 @@ Welcome to my AI Learning GitHub repo — a public, transparent, and accountable
 ├── posts/                  # All social media posts
 └── assets/                 # Carousels, images, and banners
 
+```
+
+
+## 📢 Learning In Public
+
+I’m posting daily updates on:
+
+🔗 [LinkedIn](https://www.linkedin.com/in/prapti-chavan-003/) → Weekly Updates : For recruiter visibility (carousel + post)
+
+🐦 [Twitter/X](https://x.com/PraptiChavan03) → For Daily learning blogs
+
+📝 [GitHub](https://github.com/prapti3) → All code, notebooks, and projects
+
+Check out the posts/ folder for all social media captions & updates!
