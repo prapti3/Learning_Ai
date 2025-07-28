@@ -73,4 +73,3 @@ I’m posting daily updates on:
 
 📝 [GitHub](https://github.com/prapti3) → All code, notebooks, and projects
 
-Check out the posts/ folder for all social media captions & updates!
