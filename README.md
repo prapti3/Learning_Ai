@@ -75,9 +75,11 @@ I’m posting daily updates on:
 
 
 ---
+<br>
 
 
-✅ Projects So Far
+## ✅ Projects So Far
+
 |✅ Project |  	Description | 	GitHub Folder | 
 |---|---|---|
 | IndiaCrimeLens | 📊	EDA + Plotting on real Indian crime data	 | Week01/Day07
