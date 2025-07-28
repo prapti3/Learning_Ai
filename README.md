@@ -73,3 +73,16 @@ I’m posting daily updates on:
 
 📝 [GitHub](https://github.com/prapti3) → All code, notebooks, and projects
 
+
+---
+
+
+✅ Projects So Far
+|✅ Project |  	Description | 	GitHub Folder | 
+|---|---|---|
+| IndiaCrimeLens | 📊	EDA + Plotting on real Indian crime data	 | Week01/Day07
+| CrimeStats Dashboard | 📈	Stats-based dashboard on safety insights | 	Week02/Day14
+| Math for AI |  📐	Vector, matrix, gradient descent visuals | 	Week03/Day21
+| Chat With PDF |  🤖	GenAI chatbot for documents	| Week04/Day28
+
+
