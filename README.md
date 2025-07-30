@@ -27,9 +27,4 @@
 
 ### Tools
 
-1. Notebook LM: Use this Tool to 
-
-
-
-
 
