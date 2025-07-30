@@ -1,15 +1,15 @@
-
-# 💡 Learning AI — My Public AI Learning Journey
-
-<br>
-
-👉 Welcome to my AI Learning GitHub repo a public, transparent, and accountable journal of my journey from **AI beginner** to **AI practitioner**. I’m dedicating **2 hours every day** to learning and building with AI from Python to Generative AI and beyond!
+<h1 align="center">
+💡 Learning AI — My Public AI Learning Journey
+</h1>
 
 
----
+<h2 align="center"> 
+    Join my journey to Learn AI 
+</h2>
 
 
-## 📍 Why I'm Doing This
+ ## 📍 Why I'm Doing This
+
 
 
 - 🎯 To master AI from basics to advanced topics
@@ -18,73 +18,18 @@
 - 💡 To stay consistent and learn in public
 
 ---
-<br>
 
-## 🧠 Weekly Roadmap
+### 🛣️ Roadmap 
 
-| Week | Focus Area                            | Output                                 |
-|------|----------------------------------------|----------------------------------------|
-| 1️⃣  | Python, Pandas, NumPy, Plotting        | India Crime Data Mini-Project          |
-| 2️⃣  | Statistics & Probability for ML        | Crime Insights Dashboard               |
-| 3️⃣  | Linear Algebra + Gradient Descent      | Math for AI Notebook                   |
-| 4️⃣  | Build Your First GenAI App             | Chat with PDF using LangChain & Streamlit |
-
----
-
-<br>
-
-## 🔧 Tools & Technologies
-
-- **Languages**: Python
-- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn
-- **Math Tools**: Stats, Linear Algebra, Probability, Calculus
-- **LLMs**: OpenAI API, LangChain, VectorDBs
-- **Frameworks**: Streamlit, Jupyter/Colab, GitHub
-- **Data**: Real-world datasets from Kaggle & government portals
-
----
-<br>
-
-## 📁 Folder Structure
-
-```bash
-100DaysOfAI/
-├── Week01_Python_Pandas_Visualization/
-│   └── Day01 - Day07 Notebooks + Mini Project
-├── Week02_Statistics_Probability/
-│   └── Day08 - Day14 Notebooks + Dashboard Project
-├── Week03_LinearAlgebra_GradientDescent/
-│   └── Day15 - Day21 Notebooks + MathForAI Project
-├── Week04_ChatWithPDF_GenAI/
-│   └── Day22 - Day28 Notebooks + Streamlit GenAI App
-├── posts/                  # All social media posts
-└── assets/                 # Carousels, images, and banners
-
-```
+  > 1.  [Freecodecamp Roadmap](https://www.youtube.com/watch?v=nYXVvK-Wmn0)
+  > 2.  [Roadmap](https://www.youtube.com/watch?v=LLAi8emBOrg&t=392s)
 
 
-## 📢 Learning In Public
+### Tools
 
-I’m posting daily updates on:
-
-🔗 [LinkedIn](https://www.linkedin.com/in/prapti-chavan-003/) → Weekly Updates : For recruiter visibility (carousel + post)
-
-🐦 [Twitter/X](https://x.com/PraptiChavan03) → For Daily learning blogs
-
-📝 [GitHub](https://github.com/prapti3) → All code, notebooks, and projects
+1. Notebook LM: Use this Tool to 
 
 
----
-<br>
 
-
-## ✅ Projects So Far
-
-|✅ Project |  	Description | 	GitHub Folder | 
-|---|---|---|
-| IndiaCrimeLens | 📊	EDA + Plotting on real Indian crime data	 | Week01/Day07
-| CrimeStats Dashboard | 📈	Stats-based dashboard on safety insights | 	Week02/Day14
-| Math for AI |  📐	Vector, matrix, gradient descent visuals | 	Week03/Day21
-| Chat With PDF |  🤖	GenAI chatbot for documents	| Week04/Day28
 
 
