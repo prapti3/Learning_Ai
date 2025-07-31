@@ -19,10 +19,9 @@
 
 ---
 
-### 🛣️ Roadmap 
+### 🛣️ [Roadmap](https://github.com/prapti3/LearningAi/blob/main/Ai%20Roadmap.xlsm)
 
 
-  > 1.  [Roadmap](https://www.youtube.com/watch?v=6dqAwh2MCg0)
 
 
 ### Tools
