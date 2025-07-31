@@ -22,7 +22,7 @@
 ### 🛣️ Roadmap 
 
 
-  > 1.  [Roadmap]([https://www.youtube.com/watch?v=LLAi8emBOrg&t=392s](https://www.youtube.com/watch?v=6dqAwh2MCg0))
+  > 1.  [Roadmap](https://www.youtube.com/watch?v=6dqAwh2MCg0)
 
 
 ### Tools
