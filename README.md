@@ -1,5 +1,5 @@
 <h1 align="center">
-💡 Learning AI — My Public AI Learning Journey
+💡 Learning AI : My Public AI Learning Journey
 </h1>
 
 
@@ -21,8 +21,8 @@
 
 ### 🛣️ Roadmap 
 
-  > 1.  [Freecodecamp Roadmap](https://www.youtube.com/watch?v=nYXVvK-Wmn0)
-  > 2.  [Roadmap](https://www.youtube.com/watch?v=LLAi8emBOrg&t=392s)
+
+  > 1.  [Roadmap]([https://www.youtube.com/watch?v=LLAi8emBOrg&t=392s](https://www.youtube.com/watch?v=6dqAwh2MCg0))
 
 
 ### Tools
