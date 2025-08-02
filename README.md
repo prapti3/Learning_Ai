@@ -19,12 +19,15 @@
 
 ---
 
-### 🛣️ Roadmap 
+### 🛣️ [Roadmap](https://github.com/prapti3/LearningAi/blob/main/Ai%20Roadmap.xlsm)
+- Download Above Roadmap Excel file in your System
+  
+
+---
 
 
-  > 1.  [Roadmap](https://www.youtube.com/watch?v=6dqAwh2MCg0)
+### Fllow of Complete Course
 
 
-### Tools
 
 
