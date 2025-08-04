@@ -372,3 +372,41 @@ print(thislist[-1])
 if "apple" in thislist:
     print("Yes, 'apple' is in the fruits list")
 
+
+# Change item value : change value of specific item using index 
+
+thislist[1] = "strawberry";
+
+# change Range if items value 
+
+- change value of item within specific range 
+
+thislist[1:3] = ["blackcurrent", "watermelon"]
+
+thislist[1:2] = ["blackcurrent", "watermelon"]
+
+thislist[1:3] = ["watermelon"]
+
+# insert items : insert new list of items, without replacing any of existing values, use insert() method
+
+thislist.insert(2, "watermelon")
+
+
+# append : at item to the end of the list
+thislist.append("orange")
+
+
+# Extend list : add elements from another list to current list , use extend() method
+
+tropical = ["mango", "pineppale", "papaya"]
+thislist.extend(tropical)
+- elements will be added at the end of the list
+
+
+- extend() not only addes up the list, but any iterable object (tuple,sets,dictionaries etc)
+
+thistuple = ("kiwi", "orange")
+thislist.extend(thistuple)
+
+
+
