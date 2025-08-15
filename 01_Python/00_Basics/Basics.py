@@ -144,3 +144,69 @@ take the input of temperature in celsiusX
 
 
 # Q6. Factorial of a number
+# num = int(input("Enter the number : "))
+# result = 1
+
+# for i in range(1,num+1,1):
+#     result *= i
+#     print(result)
+
+# Q7. Print the sum of all even & odd numbers in a range separately
+
+# num = int(input("Enter your number : "))
+# odd =0
+# even = 0
+
+# for i in range(1,num+1):
+#     if(i%2 == 0 ):
+#         even += i
+#     elif(i%2 != 0):
+#         odd +=i
+
+# print(f"Even number are : {even}\n Odd numbers are : {odd}")
+
+
+# Q8. Print all the factors of a number
+
+
+# num = int(input("Enter your number : "))
+# for i in range(1,num+1):
+#     if(num%i ==0):
+#         print(i)
+
+
+
+# Q9. Accept a number and check if it a perfect number or not.
+# A number whose sum of factors is equal to the number itself
+
+# num = int(input("Enter the number : "))
+# n=0
+# for i in range (1,num):
+#     if(num%i == 0):
+#         n +=i
+
+# if(n == num):
+#     print(f"{num} is a perfect number")
+# elif(n != num):
+#     print(f"{num} it is not a perfect number")
+
+
+# Q10. Check wether the number is prime or not
+
+# num = int(input("Enter the number : "))
+
+# if num <= 1:
+#     print(f"{num} is not a prime number")
+# else:
+#     is_prime = True
+#     for i in range(2, num):  # check divisors from 2 to num-1
+#         if num % i == 0:
+#             is_prime = False
+#             break
+
+#     if is_prime:
+#         print(f"{num} is a prime number")
+#     else:
+#         print(f"{num} is not a prime number")
+
+
