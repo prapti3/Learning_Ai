@@ -1,3 +1,7 @@
+import random
+# import emoji
+
+
 # print("hello ")
 
 # comments
@@ -208,5 +212,400 @@ take the input of temperature in celsiusX
 #         print(f"{num} is a prime number")
 #     else:
 #         print(f"{num} is not a prime number")
+
+
+# Q11. Reverse a string without using in build functions.
+
+# name = str(input("Enter your name : "))
+# rev_string = ""
+# for char in name:
+#     rev_string = char+rev_string
+
+# print(rev_string)
+
+
+# Q12. Check string is Pallindrome or not
+
+# name = str(input("Enter the string : "))
+# reverse_str=""
+
+# for char in name:
+#     reverse_str = char+reverse_str
+
+# if(reverse_str == name):
+#     print(f"{name} is a palindrom ")
+# else:
+#     print(f"{name} is not a palindrom")
+
+
+
+# Q13. Count all letters, digits, and special symbols from a given string
+# Given: str1 = "P@#yn26at^&i5ve"
+
+# str1 = "P@#yn26at^&i5ve"
+
+# letters = 0
+# digits = 0
+# symbols = 0
+
+# for char in str1:
+#     if char.isalpha():       # check if letter
+#         letters += 1
+#     elif char.isdigit():     # check if digit
+#         digits += 1
+#     else:                    # everything else = special symbol
+#         symbols += 1
+
+
+# print(f"Letter : {letters}")
+# print(f"Digits : {digits}")
+# print(f"Symbols : {symbols}")
+
+# While loop : -->
+
+# a = 1
+# while a<=30:
+#     print(a)
+#     a+=1
+
+
+
+
+
+
+# Q1. Separate each digit of a number and print it on the new line
+
+# num = int(input("Enter the number : "))
+# while num > 0:
+#     print(num%10)
+#     num //= 10
+
+
+# Q2. Accept a number and print its reverse
+
+
+# num = int(input("Enter the number : "))
+# rev =0
+
+# while num > 0:
+#     rev = rev *10 + num%10
+#     num //= 10
+
+# print(rev)
+
+
+# Q3. Accept a number and check if it is a pallindromic number (If number and its reverse are equal)
+
+# num = int(input("Enter the number : "))
+
+# rev =0
+# copy =num
+
+# while num > 0:
+#     rev= rev *10 + num%10
+#     num //= 10
+
+# if(rev == copy):
+#     print(f"{copy} is a palindrome")
+# elif(rev != copy):
+#     print(f"{copy} is not a palindrome")
+
+
+# Q4. Create a random number guessing game with python.
+
+# random_number = random.randint(1,100)
+# guess_number =int(input("Guess the random number : "))
+
+# if(random_number == guess_number):
+#     print("YESSSSS! You win 🎉")
+# elif(random_number != guess_number):
+#     print("ohhhh!! Better luck next time 😢")
+
+'''Functions'''
+
+# def greet(name):
+#     print(f"Hello {name}, welcome to the world of Python!")
+
+# greet("Prapti")
+
+
+# def add(a,b):
+#     return a+b
+
+# print(add(1,2))
+
+# def intro(name = "akaksh"):
+#     print(f"Hello, {name}")
+
+# intro()
+
+
+
+'''  Data Structures '''
+
+# build in Data structures
+
+# 1. List
+'''
+my_list = [1, 2, 3, 4, 5]
+my_list.append(6) # Add an element to the end
+my_list.insert(2,15) # Insert an element at index 2
+my_list.remove(2) # Remove the first occurrence of 2
+my_list.extend([7,8,9]) # Extend the list with another list
+popped_item = my_list.pop() # Remove and return the last item
+index = my_list.index(4) # Get the index of the first occurrence of 4
+my_list.append(5) # Add 5 to the end
+count_5 = my_list.count(5) # Count occurrences of 5
+my_list.sort() # Sort the list in ascending order
+my_list.reverse() # Reverse the list
+new_list = my_list.copy() # Create a shallow copy of the list
+# my_list.clear() # Remove all elements from the list
+
+
+
+print(f"my List is : {my_list}")
+print(f"Popped items is : {popped_item}")
+print(f"index value of 4 is : {index}")
+print(f"count how many 5 are there : {count_5}")
+print(f"New list : {new_list}")
+
+
+
+'''
+
+
+
+# Q1. Print positive and negative elements of an List?
+
+# numbers = [1, -2, 3, -4, 5, -6, 7, -8, 9]
+# positive_numbers = []
+# negative_numbers = []
+
+# for num in numbers:
+#     if num >= 0:
+#         positive_numbers.append(num )
+#     else:
+#         negative_numbers.append(num)
+
+# print(f"Positive numbers: {positive_numbers}")
+# print(f"Negative numbers: {negative_numbers}")
+
+#Q3. Mean of the list
+
+# my_list = [1,2,3,4,-5,6,7]
+# total_count = 0
+# add_items = 0
+# mean_num =0
+
+# for i in my_list:
+#     # if i > 0:
+#         total_count+=1
+#         add_items = add_items+i
+    
+
+# mean_num = add_items // total_count
+
+# print(f"Mean of the list is : {mean_num}")
+
+
+
+# Q4. Find the greatest element and print its index too?
+
+# my_list = [1,2,3,4,5,6]
+
+# largest_num = my_list[0]
+# index_largestNum =0
+
+# for i in my_list:
+#     for j in my_list:
+#         if i>j:
+#             largest_num = i
+    
+
+# print(largest_num)
+# index_largestNum = my_list.index(largest_num)
+# print(index_largestNum)
+
+
+# *********** different solution ************************
+
+
+# l = [1,2,3,4,5,6]
+
+# largest = l[0]
+# index= 0
+# for i in range(len(l)):
+#     if l[i] >largest:
+#         largest = l[i]
+#         index= i
+        
+# print(index)
+# print(largest)
+
+
+
+
+# Q5. Find the second greatest element?
+
+# print(dir(list))
+# help(list)
+
+# l = [11,32,43,14,25,36]
+
+# largest = l[0]
+# sec_largest = l[0]
+
+# # l.sort()   sort the list first
+
+# for i in range(len(l)):
+#     if l[i] >= largest:
+#         sec_largest = largest
+#         largest = l[i]
+        
+
+# print(f"Largest number is : {largest} and Second largest is : {sec_largest}")
+
+
+
+
+# Q5.Check if List is sorted or not.
+
+# l = [11, 32, 43, 14, 25, 36]
+
+# is_sorted = True
+# for i in range(len(l) - 1):
+#     if l[i] > l[i + 1]:
+#         is_sorted = False
+#         break
+
+# if is_sorted:
+#     print("Your list is sorted")
+# else:
+#     print("Your list is not sorted")
+
+
+
+''' Tuple 
+
+t = (1,2,2,3,4)
+print(type(t))
+
+index = t.index(3)
+print(index)
+
+count_2 = t.count(2)
+print(count_2)
+
+
+'''
+
+
+
+
+'''   Set  
+
+
+s = {1,2,3,4,"Hello",5}
+print(type(s))
+print(s)
+
+print(hash("Hello"))
+
+# set mmethods 
+s.add(9)
+s.remove(3)
+s.discard(5)
+s.pop() # removes random values
+ 
+
+A = {1,2,3}
+B = {3,4,5}
+
+union_set = A.union(B)
+intersection_set = A.intersection(B)
+difference_set = A.difference(B)
+symmetric_diff = A.symmetric_difference(B)
+
+print(A | B)
+print(A & B)
+print(A - B)
+print(A ^ B)
+
+
+for i in s:
+    print(i)
+
+
+'''
+
+
+''' Dictionary '''
+
+# dict = {1:10,2:20,3:30,4:40}
+# for i in dict:
+#     print(i,":", dict[i])
+
+
+# help(dict)
+# Q1. Write a Python script to merge two Python dictionaries?
+
+dict1 = {1:10,2:20}
+dict2 = {3:30,4:40,5:50,6:60}
+
+# merged_dict = {**dict1, **dict2}
+# print(merged_dict)
+
+
+# for i in dict1:
+#      print(dict1[i]) #values
+#      print(i) #keys
+
+
+#Q2. Write a Python program to sum all the values in a dictionary?
+
+# sum =0
+
+
+# for i in dict1:
+#      sum = sum + dict1[i]
+    
+# print(sum)
+
+
+
+# Q3. Count the frequency of each element.
+
+# num = {1:20, 2:40, 3: 40, 4:20}
+# key_num = 0
+# freq = {}
+
+
+# for value in num.values():
+#     if value in freq:
+#         freq[value] += 1
+#     else:
+#         freq[value] =1
+
+# print(freq)
+
+# num = {1:20, 2:40, 3: 50, 4:30}
+
+# num[2] = 1000  
+# print(num)
+
+# print(num.items())
+
+
+
+# Q4. Write a Python program to combine two dictionary by adding values for common keys.
+
+dict1 = {1:10,2:20}
+dict2 = {1:1, 2:1,3:1,4:2,5:3}
+
+
+
+
+
+
 
 
