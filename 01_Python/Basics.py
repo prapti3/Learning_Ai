@@ -575,18 +575,19 @@ dict2 = {3:30,4:40,5:50,6:60}
 
 # Q3. Count the frequency of each element.
 
-# num = {1:20, 2:40, 3: 40, 4:20}
-# key_num = 0
-# freq = {}
+# a = [ 1,1,1,2,2,2,2,3,3,3,4,4,4,5]
 
+# d = {}
 
-# for value in num.values():
-#     if value in freq:
-#         freq[value] += 1
+# for i in a:
+#     if i in d.keys():
+#         d[i] += 1
 #     else:
-#         freq[value] =1
+#         d[i] = 1
 
-# print(freq)
+# print(d)
+
+# -----
 
 # num = {1:20, 2:40, 3: 50, 4:30}
 
@@ -599,8 +600,104 @@ dict2 = {3:30,4:40,5:50,6:60}
 
 # Q4. Write a Python program to combine two dictionary by adding values for common keys.
 
-dict1 = {1:10,2:20}
-dict2 = {1:1, 2:1,3:1,4:2,5:3}
+# d1 = {1:10,2:20,3:30}
+# d2 = {3:30,4:40}
+
+# for i in d2:
+#     if i in d1.keys():
+#         d1[i] += d2[i]
+#     else:
+#         d1[i] = d2[i]
+
+
+# print()
+
+
+'''
+
+  Exception Handling  
+
+
+# 1. Errors -->
+
+> two types of errors 
+
+a. Syntax error
+b. logical error
+
+
+> Syntax error --> wrong syntax 
+> indentation error --> spacing errors
+
+Errors cannot be handled but 
+Exception can be handled
+
+
+Exception -->
+- occures during execution of program
+
+
+print("Start")
+print(10/0)
+print("End")
+
+
+'''
+
+
+# a = int(input("tell your number :- "))
+# try:
+#     print(10/a)
+# # except ZeroDivisionError:
+# except Exception as e:
+#     # print("Sorry you cannot divide with 0")
+#     print(e)
+
+# else:
+#     print("Good there is no error")
+
+# finally:
+#     print("Wowww , looking good !!!!!!!!!")
+
+
+# print(f"OK i have divided the number : {a}")
+
+#  ----------------
+
+# age = int(input("tell me your number : "))
+
+# try: 
+#     if age < 10 or age > 18:
+#         raise ValueError("age must be between 10 and 18")
+#     else:
+#         print("!!!! Welcome to club !!!!")
+
+# except Exception as err:
+#     print(f"an error occured : {err}")
+
+
+# --------------------
+
+
+'''
+
+***** File handling ********
+CRUD
+
+open() function - to open the file
+r - read(default) 
+w - write
+a - Append
+x - Create new file, fails if it exists
+
+
+
+ '''
+
+
+file= open("myfile.txt",'r')
+print(file.read())    # read entire file
+
 
 
 
