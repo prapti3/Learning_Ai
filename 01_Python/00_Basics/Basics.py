@@ -695,8 +695,9 @@ x - Create new file, fails if it exists
  '''
 
 
-file= open("myfile.txt",'r')
+file= open(r'C:\Users\prapt\OneDrive\Desktop\LearningAi\01_Python\00_Basics\myfile.txt')
 print(file.read())    # read entire file
+
 
 
 
