@@ -695,9 +695,25 @@ x - Create new file, fails if it exists
  '''
 
 
-file= open(r'C:\Users\prapt\OneDrive\Desktop\LearningAi\01_Python\00_Basics\myfile.txt')
-print(file.read())    # read entire file
+# file= open(r'C:\Users\prapt\OneDrive\Desktop\LearningAi\01_Python\00_complete course\myfile.txt')
+# print(file.read())    # read entire file
 
+# p = open(r'C:\Users\prapt\OneDrive\Desktop\LearningAi\01_Python\00_complete course\myfile.txt')
+# print(p.read())
+
+# r = open("superman.txt",'w')
+# r.write("Python is awesome language ")
+
+# add = open("superman.txt",'a')
+# add.write(" this is writting in end")
+
+# add.close()
+
+# try:
+#   c = open("superman.txt", 'x')
+
+# except Exception as err:
+#   print(err)
 
 
 
