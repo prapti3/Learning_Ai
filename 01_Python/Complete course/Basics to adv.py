@@ -718,8 +718,32 @@ x - Create new file, fails if it exists
 
 
 
+# ********** OOPs ****************
+
+# 1. classes 
+
+class Fact:
+    a = 12
+
+    def walk(self):
+        print("Start walking")
+
+    print("Hello this is class")
 
 
+# print(Fact().a)
+# Fact().walk()
 
+
+# ******* Object **********88
+
+obj =Fact()
+
+obj.walk()
+print(obj.a)
+
+obj1 = Fact()
+obj1.walk()
+print(obj1.a)
 
 
