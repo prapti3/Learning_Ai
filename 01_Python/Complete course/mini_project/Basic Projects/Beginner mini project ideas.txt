@@ -22,6 +22,7 @@
 ---
 
 🟡 Slightly Bigger Beginner Projects
+
 6. Simple Quiz Game
    - Ask multiple-choice questions.
    - Keep score of correct answers.
